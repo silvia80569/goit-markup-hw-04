@@ -87,7 +87,7 @@ a:focus {
   padding: 94px;
   height: 500px;
   background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-  url(../assets/imghero.jpg), no-repeat;
+  url(../assets/imghero.jpg), no-repeat, cover;
 }
 
 
@@ -230,13 +230,15 @@ padding: 94px 0px;
   }
 
   .list-item-img {
+    display: flex;
+    flex-direction: column;
     border: solid  var(--cornflower);
     color: var(--navy-blue);
   }
 
-  .img {
-    width: 360px;
-    height: 300px;
+  .list-item-img:hover {
+    color: var(--ocean);
+    cursor: pointer;
   }
 
   .title-img {
