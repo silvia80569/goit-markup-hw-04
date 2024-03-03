@@ -199,10 +199,41 @@ a:active{
 .photo {
 	border: none;
 	background-color: var(--white);
+  box-shadow: 5px 5px 8px 1px rgba(143, 144, 180, 0.4);
 }
 
 .card-content {
   text-align: center;
+}
+/* customers*/
+
+.customers {
+  padding: 94px 0px;
+}
+
+.list-icons-costumers {
+  display: flex;
+  gap: 24px;
+}
+
+.icons-costumers svg {
+  width: 104px; ;
+  height:56px ;
+}
+
+.icons-costumers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: var(--slate) solid;
+  border-radius: 5%;
+}
+ .list-icons-costumers:hover,
+ .list-icons-costumers:focus {
+  color: var(--ocean);
+  cursor: pointer;
 }
   
 /* styles footer*/
@@ -256,6 +287,7 @@ a:active{
 
   .button:focus,
   .button:hover {
+    box-shadow: 0px 4px 10px rgb(113, 135, 202);
     color: var(--cornflower);
     cursor: pointer;
   }
@@ -268,7 +300,8 @@ a:active{
 
   .button-first:hover,
   .button-first:focus {
-    color: var(--ocean)S;
+    color: var(--ocean);
+    box-shadow: 0px 4px 10px rgb(113, 135, 202);
     cursor: pointer;
   }
 
@@ -288,6 +321,7 @@ a:active{
   }
 
   .list-item-img:hover {
+    box-shadow: 0px 8px 20px;
     color: var(--ocean);
     cursor: pointer;
   }
