@@ -117,7 +117,33 @@ a:active{
 /*styles icons*/
 .icons-list  {
   display: flex;
+  gap: 16px;
+  justify-content: center;
 }
+
+.icons-list .icons svg {
+  width: 20px;
+  height: 20px;
+}
+
+.icons-list .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--ocean);
+  color: var(--white);
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.icons-list .icons:hover,
+.icons-list .icons:active {
+  background-color: var(--green);
+  cursor: pointer;
+}
+
 
 /* styles skils index*/
 .list-skils {
@@ -128,6 +154,21 @@ a:active{
   color: var(--navy-blue);
   padding: 94px 0px;
 }
+
+.item-skils svg {
+  width: 64px;
+  height: 64px;
+}
+
+.svg-skils {
+  background-color: var(--cloud);
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .text-skils {
 	color: var(--slate);
@@ -143,7 +184,7 @@ a:active{
 /* styles our team index*/
  .our-team {
 	background-color: var(--cloud);
-padding: 94px 0px;
+  padding: 94px 0px;
 }
 
 .header-our-team {
@@ -172,6 +213,11 @@ padding: 94px 0px;
     flex-direction: column;
     justify-content: center;
     height:400px;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
   }
 
 .logo-text-footer {
