@@ -58,7 +58,7 @@ ul {
 } 
 
 .global-header .nav-list a:hover,
-a:focus {
+a:active{
   color: var(--ocean);
 }
 
@@ -87,7 +87,7 @@ a:focus {
   padding: 94px;
   height: 500px;
   background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-  url(../assets/imghero.jpg), no-repeat, cover;
+  url(../assets/imghero.jpg), no-repeat;
 }
 
 
@@ -112,6 +112,11 @@ a:focus {
 
 .hero-button:hover {
 	background-color:var(--light-slate) ;
+}
+
+/*styles icons*/
+.icons-list  {
+  display: flex;
 }
 
 /* styles skils index*/
@@ -162,11 +167,11 @@ padding: 94px 0px;
 /* styles footer*/
 .footer {
     background-color: var(--navy-blue);
-    color: var(--cloud);
-    height: 312px; 
+    color: var(--cloud); 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height:400px;
   }
 
 .logo-text-footer {
