@@ -241,11 +241,13 @@ a:active{
     background-color: var(--navy-blue);
     color: var(--cloud); 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    gap: 100px;
     height:400px;
   }
-
+.title-footer {
+  text-align: center;
+}
   .social-media {
     display: flex;
     flex-direction: column;
